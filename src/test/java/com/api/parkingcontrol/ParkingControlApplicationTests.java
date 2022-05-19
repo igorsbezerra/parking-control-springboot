@@ -1,5 +1,6 @@
 package com.api.parkingcontrol;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,6 @@ class ParkingControlApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Assertions.assertEquals(1, 1);
 	}
-
 }
