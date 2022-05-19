@@ -9,6 +9,8 @@ class ParkingControlApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertEquals(1, 1);
+		var atual = "1";
+		var expected = "1";
+		Assertions.assertEquals(expected, atual);
 	}
 }
